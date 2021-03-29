@@ -26,6 +26,7 @@
 #displayCards {
     grid-area: main;
     display: grid;
+    grid-template-rows: repeat(3, 30%);
     grid-gap: 10px;
     background-color:forestgreen;
 }
@@ -49,4 +50,7 @@ input {
     font-size: inherit;
     font-family: inherit;
     margin: 3px;
+}
+input:focus {
+    border-color: #000
 }
